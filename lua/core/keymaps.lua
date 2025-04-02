@@ -47,3 +47,6 @@ end, { noremap = true, silent = true, desc = 'Toggle line wrapping' })
 -- File explorer
 vim.keymap.set('n', '<C-n>', ':NvimTreeToggle<CR>', { desc = 'Toggle file tree' })
 vim.keymap.set('n', '<Leader>tf', ':NvimTreeFindFile<CR>', { noremap = true, silent = true, desc = 'Find current file on file tree' })
+
+-- Lazydocker
+vim.keymap.set('n', '<Leader>ld', '<cmd>LazyDocker<CR>', { noremap = true, silent = true, desc = 'Toggle LazyDocker' })

@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
   'tpope/vim-sleuth',
   require 'plugins/avante',
+  require 'plugins/nvim-ts-autotag',
   require 'plugins/toggleterm',
   require 'plugins/lazygit',
   require 'plugins/nvim-tree',
@@ -24,6 +25,7 @@ require('lazy').setup({
   require 'plugins/nvim-cmp',
   require 'plugins/nvim-treesitter',
   require 'plugins/lazydocker',
+  require 'plugins/markdown-preview',
   -- LSP Plugins
   {
     -- `lazydev` configures Lua LSP for your Neovim config, runtime and plugins

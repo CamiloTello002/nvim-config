@@ -1,6 +1,3 @@
--- This config file has defaults you'd expect in an average
--- text editor
-
 require 'core.options'
 require 'core.keymaps'
 require 'core.autocmds'

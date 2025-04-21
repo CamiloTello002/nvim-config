@@ -50,3 +50,6 @@ vim.keymap.set('n', '<Leader>tf', ':NvimTreeFindFile<CR>', { noremap = true, sil
 
 -- Lazydocker
 vim.keymap.set('n', '<Leader>ld', '<cmd>LazyDocker<CR>', { noremap = true, silent = true, desc = 'Toggle LazyDocker' })
+
+-- Create a split window
+vim.keymap.set('n', '<Leader>vs', '<cmd>vs<CR>', { noremap = true, silent = true, desc = 'Toggle LazyDocker' })

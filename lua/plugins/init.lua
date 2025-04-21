@@ -26,6 +26,7 @@ require('lazy').setup({
   require 'plugins/nvim-treesitter',
   require 'plugins/lazydocker',
   require 'plugins/markdown-preview',
+  require 'plugins/harpoon',
   -- LSP Plugins
   {
     -- `lazydev` configures Lua LSP for your Neovim config, runtime and plugins
@@ -337,7 +338,7 @@ require('lazy').setup({
       require('mini.ai').setup { n_lines = 500 }
 
       -- Add/delete/replace surroundings (brackets, quotes, etc.)
-      --
+      -- (no quiero ir donde todos van)
       -- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
       -- - sd'   - [S]urround [D]elete [']quotes
       -- - sr)'  - [S]urround [R]eplace [)] [']

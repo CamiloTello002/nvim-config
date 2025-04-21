@@ -26,6 +26,7 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 vim.opt.confirm = true
 vim.opt.laststatus = 3
+vim.opt.wrap = false
 
 -- Schedule clipboard setting to avoid startup issues
 vim.schedule(function()
